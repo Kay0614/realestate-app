@@ -1,5 +1,16 @@
+# OS・エディタ
 .DS_Store
 Thumbs.db
 .vscode/
+
+# 依存パッケージ・ビルド成果物
 node_modules/
+dist/
+
+# 環境変数（Supabaseの接続情報など）
 .env
+.env.local
+.env.*.local
+
+# ログ
+*.log
